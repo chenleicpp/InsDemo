@@ -17,8 +17,15 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:scaleType="center"
-            android:src="@mipmap/img_toolbar_logo" />
+            android:src="@drawable/img_toolbar_logo" />
     </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvFeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:scrollbars="none" />
 
     <ImageButton
         android:id="@+id/btnCreate"
@@ -30,6 +37,6 @@
         android:layout_marginRight="@dimen/btn_fab_margins"
         android:background="@drawable/btn_fab_default"
         android:elevation="@dimen/default_elevation"
-        android:src="@mipmap/ic_instagram_white"
+        android:src="@drawable/ic_instagram_white"
         android:textSize="28sp" />
 </RelativeLayout>

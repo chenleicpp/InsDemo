@@ -2,8 +2,11 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        //toolbar背景色
         <item name="colorPrimary">@color/style_color_primary</item>
+        //通知栏背景色
         <item name="colorPrimaryDark">@color/style_color_primary_dark</item>
+        //checkbox颜色
         <item name="colorAccent">@color/style_color_accent</item>
     </style>
 
